@@ -1,0 +1,21 @@
+debug
+exit
+run
+exit
+run
+help
+tasks
+help testOnly
+testOnly playIntro.EjemploAsincronismoTest
+clean
+testOnly playIntro.EjemploAsincronismoTest
+testOnly "playIntro.EjemploAsincronismoTest"
+test
+clean
+test
+clear
+test
+clean
+test
+testOnly "playIntro.EjemploAsincronismoTest"
+exit

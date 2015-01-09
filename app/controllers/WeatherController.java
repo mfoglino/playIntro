@@ -1,9 +1,9 @@
 package controllers;
 
+import patterns.observer.User;
+import patterns.observer.WeatherPublisher;
 import play.mvc.Controller;
 import play.mvc.Result;
-import services.observer.WeatherPublisher;
-import services.observer.User;
 
 public class WeatherController extends Controller {
 	

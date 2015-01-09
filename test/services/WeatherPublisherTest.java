@@ -2,8 +2,8 @@ package services;
 
 import org.junit.Test;
 
-import services.observer.WeatherPublisher;
-import services.observer.User;
+import patterns.observer.User;
+import patterns.observer.WeatherPublisher;
 
 public class WeatherPublisherTest {
 	

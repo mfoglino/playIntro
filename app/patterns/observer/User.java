@@ -1,4 +1,4 @@
-package services.observer;
+package patterns.observer;
 
 import lombok.Data;
 

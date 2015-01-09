@@ -44,7 +44,7 @@ Hoy es: """),_display_(/*4.10*/fecha),format.raw/*4.15*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Jan 08 16:42:44 ART 2015
+                  DATE: Fri Jan 09 11:15:59 ART 2015
                   SOURCE: /home/marcos/workspace/playIntro/app/views/hoy.scala.html
                   HASH: e22e08442b53b9f483942a5d3e759177908ad976
                   MATRIX: 721->1|824->16|852->18|892->32|917->37|944->38

@@ -4,7 +4,7 @@
 		module="playintro_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150108164239"
+		publication="20150109111553"
 	>
 		<description>
 		playIntro
@@ -43,5 +43,7 @@
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.3.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-jpa_2.11" rev="2.3.7" conf="compile->default(compile)"/>
 		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="3.6.9.Final" conf="compile->default(compile)"/>
+		<dependency org="org.projectlombok" name="lombok" rev="1.14.8" conf="compile->default(compile)"/>
+		<dependency org="org.springframework" name="spring-core" rev="4.1.4.RELEASE" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

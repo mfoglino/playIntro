@@ -6,8 +6,7 @@ import play.libs.F;
 import play.libs.F.Promise;
 import play.mvc.Controller;
 import play.mvc.Result;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-import views.html.*;
+import views.html.hoy;
 
 public class HelloWorld extends Controller{
 	

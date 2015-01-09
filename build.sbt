@@ -10,5 +10,7 @@ libraryDependencies ++= Seq(
   javaWs,  
   javaJdbc,
   javaJpa,    
-  "org.hibernate" % "hibernate-entitymanager" % "3.6.9.Final"
+  "org.hibernate" % "hibernate-entitymanager" % "3.6.9.Final",
+  "org.projectlombok" % "lombok" % "1.14.8",
+  "org.springframework" % "spring-core" % "4.1.4.RELEASE"
 )

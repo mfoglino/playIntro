@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f30ab08[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77d7b67[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -628,16 +628,7 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.springframework#spring-core;4.0.3.RELEASE ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.springframework#spring-core;4.0.3.RELEASE[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.springframework#spring-core;4.0.3.RELEASE[0m
-[0m[[0mdebug[0m] [0m	found org.springframework#spring-core;4.0.3.RELEASE in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.springframework#spring-beans;4.0.3.RELEASE ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.springframework#spring-beans;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -724,7 +715,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-context;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-context;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
@@ -1135,6 +1125,39 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;3.6.9.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.projectlombok#lombok;1.14.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.projectlombok#lombok;1.14.8 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.projectlombok#lombok;1.14.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.projectlombok#lombok;1.14.8[0m
+[0m[[0mdebug[0m] [0m	found org.projectlombok#lombok;1.14.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.springframework#spring-core;4.1.4.RELEASE ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.springframework#spring-core;4.1.4.RELEASE {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.springframework#spring-core;4.1.4.RELEASE[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.springframework#spring-core;4.1.4.RELEASE[0m
+[0m[[0mdebug[0m] [0m	found org.springframework#spring-core;4.1.4.RELEASE in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.2[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [compile][0m
@@ -1469,8 +1492,11 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -1524,8 +1550,10 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
@@ -1591,7 +1619,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
@@ -1642,7 +1672,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -1809,6 +1840,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;3.6.9.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [runtime][0m
@@ -2144,8 +2183,11 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -2199,8 +2241,10 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
@@ -2266,7 +2310,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
@@ -2317,7 +2363,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -2484,6 +2531,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;3.6.9.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.7 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.3.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.3.7 {test=[default(compile)]}[0m
@@ -3010,17 +3065,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1.3[0m
-[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -3071,7 +3118,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->org.apache.httpcomponents#httpcore;4.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->org.apache.httpcomponents#httpcore;4.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -3373,7 +3421,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -3749,7 +3799,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-io#commons-io;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.12.v20130726 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
@@ -4169,8 +4220,11 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -4224,8 +4278,10 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
@@ -4291,7 +4347,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
@@ -4342,7 +4400,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -4509,6 +4568,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;3.6.9.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -4846,8 +4913,11 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -4901,8 +4971,10 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
@@ -4968,7 +5040,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
@@ -5019,7 +5093,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -5186,6 +5261,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;3.6.9.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for playintro#playintro_2.11;1.0-SNAPSHOT [test-internal][0m
@@ -5523,8 +5606,11 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
@@ -5578,8 +5664,10 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-expression;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.0.3.RELEASE [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-core;4.1.4.RELEASE [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.springframework#spring-core;4.1.4.RELEASE->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.3.7->org.springframework#spring-beans;4.0.3.RELEASE [runtime->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.springframework#spring-core;4.0.3.RELEASE {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
@@ -5645,7 +5733,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
@@ -5696,7 +5786,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -5863,6 +5954,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;3.6.9.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;3.6.9.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.projectlombok#lombok;1.14.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.7 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.7 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.7 [test->compile][0m
@@ -6135,9 +6234,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -6401,7 +6500,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -6780,8 +6881,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->org.apache.httpcomponents#httpcore;4.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.3.1->commons-codec#commons-codec;1.9 [runtime->compile][0m
@@ -6843,7 +6944,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-io#commons-io;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->commons-logging#commons-logging;1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.13->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.12.v20130726 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
@@ -7375,8 +7477,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies playintro#playintro_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-compiler;2.11.0->...[0m
 [0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
-[0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
-[0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.1!scala-library.jar[0m
@@ -7387,6 +7487,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.3.7!play-java-jdbc_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jpa_2.11;2.3.7!play-java-jpa_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hibernate#hibernate-entitymanager;3.6.9.Final!hibernate-entitymanager.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.projectlombok#lombok;1.14.8!lombok.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-core;4.1.4.RELEASE!spring-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.1!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#build-link;2.3.7!build-link.jar[0m
@@ -7422,7 +7524,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hibernate#hibernate-validator;5.0.3.Final!hibernate-validator.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.2.0.Final!jboss-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-context;4.0.3.RELEASE!spring-context.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-core;4.0.3.RELEASE!spring-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-beans;4.0.3.RELEASE!spring-beans.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reflections#reflections;0.9.8!reflections.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)[0m
@@ -7437,7 +7538,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] oauth.signpost#signpost-commonshttp4;1.2.1.2!signpost-commonshttp4.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.3.7!play-jdbc_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.175!h2.jar[0m
@@ -7450,6 +7550,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-collections#commons-collections;3.1!commons-collections.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hibernate#hibernate-commons-annotations;3.2.0.Final!hibernate-commons-annotations.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] asm#asm;3.1!asm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.3.7!play-test_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.11!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-core_2.11;2.3.12!specs2-core_2.11.jar[0m
@@ -7491,7 +7592,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jna#jna;3.4.0!jna.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jna#platform;3.4.0!platform.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3!httpcore.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.3!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.13!htmlunit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] xalan#xalan;2.7.1!xalan.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar[0m
@@ -7520,7 +7620,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4286ms :: artifacts dl 124ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4354ms :: artifacts dl 101ms[0m
 [0m[[0mdebug[0m] [0m	report for playintro#playintro_2.11;1.0-SNAPSHOT compile produced in /home/marcos/workspace/playIntro/target/resolution-cache/reports/playintro-playintro_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for playintro#playintro_2.11;1.0-SNAPSHOT runtime produced in /home/marcos/workspace/playIntro/target/resolution-cache/reports/playintro-playintro_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for playintro#playintro_2.11;1.0-SNAPSHOT test produced in /home/marcos/workspace/playIntro/target/resolution-cache/reports/playintro-playintro_2.11-test.xml[0m
@@ -7534,5 +7634,5 @@
 [0m[[0mdebug[0m] [0m	report for playintro#playintro_2.11;1.0-SNAPSHOT docs produced in /home/marcos/workspace/playIntro/target/resolution-cache/reports/playintro-playintro_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for playintro#playintro_2.11;1.0-SNAPSHOT pom produced in /home/marcos/workspace/playIntro/target/resolution-cache/reports/playintro-playintro_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for playintro#playintro_2.11;1.0-SNAPSHOT scala-tool produced in /home/marcos/workspace/playIntro/target/resolution-cache/reports/playintro-playintro_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4286ms resolve - 124ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (4354ms resolve - 101ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

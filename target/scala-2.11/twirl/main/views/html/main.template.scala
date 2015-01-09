@@ -53,7 +53,7 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Jan 08 16:42:45 ART 2015
+                  DATE: Fri Jan 09 11:15:59 ART 2015
                   SOURCE: /home/marcos/workspace/playIntro/app/views/main.scala.html
                   HASH: 2161330b6434d5bb9afcd5e16006e0def9590b71
                   MATRIX: 727->1|845->31|873->33|950->84|975->89|1063->151|1077->157|1131->191|1218->252|1232->258|1284->290|1336->315|1351->321|1406->355|1500->422|1528->429|1560->434

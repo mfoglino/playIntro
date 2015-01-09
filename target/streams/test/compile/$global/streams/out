@@ -1,38 +1,26 @@
+[0m[[0mdebug[0m] [0mInvalidating /home/marcos/workspace/playIntro/target/scala-2.11/classes/services/observer/WeatherPublisher.class: stamp changed from lastModified(1420816230000) to lastModified(1420816448000)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/home/marcos/workspace/playIntro/test/IntegrationTest.java, /home/marcos/workspace/playIntro/test/ApplicationTest.java, /home/marcos/workspace/playIntro/test/playIntro/WeatherApiTest.java)[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/marcos/workspace/playIntro/test/IntegrationTest.java, /home/marcos/workspace/playIntro/test/ApplicationTest.java, /home/marcos/workspace/playIntro/test/playIntro/WeatherApiTest.java)[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/home/marcos/workspace/playIntro/target/scala-2.11/classes/services/observer/WeatherPublisher.class)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/home/marcos/workspace/playIntro/test/services/WeatherCentralTest.java)[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/marcos/workspace/playIntro/test/IntegrationTest.java, /home/marcos/workspace/playIntro/test/ApplicationTest.java, /home/marcos/workspace/playIntro/test/playIntro/WeatherApiTest.java)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 3 Java sources to /home/marcos/workspace/playIntro/target/scala-2.11/test-classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/marcos/workspace/playIntro/test/services/WeatherCentralTest.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/marcos/workspace/playIntro/target/scala-2.11/test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_7bb69d49/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_98866696/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 1.334188752 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.203867275 s[0m
-[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/marcos/workspace/playIntro/test/IntegrationTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/marcos/workspace/playIntro/test/IntegrationTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/marcos/workspace/playIntro/test/IntegrationTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/marcos/workspace/playIntro/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/marcos/workspace/playIntro/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/marcos/workspace/playIntro/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/marcos/workspace/playIntro/test/playIntro/WeatherApiTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/marcos/workspace/playIntro/test/playIntro/WeatherApiTest.java)[0m
-[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/marcos/workspace/playIntro/test/playIntro/WeatherApiTest.java)[0m
+[0m[[0mdebug[0m] [0mJava compilation took 1.337539228 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.020035719 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

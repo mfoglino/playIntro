@@ -1,6 +1,6 @@
 // @SOURCE:/home/marcos/workspace/playIntro/conf/routes
 // @HASH:60a68bf854289cf54eb11068d979f646c58bd5f4
-// @DATE:Thu Jan 08 16:42:44 ART 2015
+// @DATE:Fri Jan 09 11:15:58 ART 2015
 
 
 import play.core._
